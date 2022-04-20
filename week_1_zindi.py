@@ -4,17 +4,17 @@
 # Collecting tweets based on key words
 
 This notebook shows you how to use the [tweepy](https://www.tweepy.org/) python library to collect tweets from Twitter based on key words.
-
-STEP 1: PYTHON PACKAGES INSTALLATION
-
-Install the following python packages that will help you to collect data from twitter.com
 """
+
+"""STEP 1: PYTHON PACKAGES INSTALLATION
+
+    Install the following python packages that will help you to collect data from twitter.com"""
 
 !pip install tweepy
 
 !pip install unidecode
 
-"""## STEP 2: IMPORT IMPORTANT PACKAGES """
+"""STEP 2: IMPORT IMPORTANT PACKAGES """
 
 #import dependencies
 import tweepy
@@ -121,6 +121,4 @@ df
 # show total number of tweets collected
 print("total_tweets: {}".format(total_tweets))
 
-"""For more tweepy configuration please read the tweepy documentation [here](https://docs.tweepy.org/en/latest/).
-
-"""
+"""For more tweepy configuration please read the tweepy documentation [here](https://docs.tweepy.org/en/latest/)"""
